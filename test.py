@@ -45,5 +45,5 @@ except ValueError:
 thinking_content = tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
 content = tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
 
-print("thinking content:", thinking_content)
+#print("thinking content:", thinking_content)
 print("content:", content)
