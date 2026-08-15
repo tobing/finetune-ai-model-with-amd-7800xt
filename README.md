@@ -33,3 +33,7 @@ Before run the test, try to modify the prompt at [`test.py`](https://github.com/
 ```
 TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1 .venv/bin/python test.py
 ```
+
+
+https://github.com/user-attachments/assets/623ab98f-1629-40f3-be34-c80ad9d0654c
+
