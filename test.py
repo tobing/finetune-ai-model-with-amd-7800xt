@@ -2,8 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from pathlib import Path
 
 # model_name = "Qwen/Qwen3-0.6B"
-model_name = "/mnt/LINUX_DATA/PROGRAMMING/PYTHON/finetune/Qwen3-0.6B-finetuned-chat/"
-# model_name = str(Path.cwd() / "Qwen3-0.6B-finetuned-chat")
+model_name = str(Path.cwd() / "Qwen3-0.6B-finetuned-chat")
 
 # load the tokenizer and the model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
